@@ -59,7 +59,7 @@ const logger = createLogger();
 // Creating the bot with access token, name and avatar
 const bot = new ViberBot(logger, {
     authToken: process.env.VIBER_PUBLIC_ACCOUNT_ACCESS_TOKEN_KEY, // Learn how to get your access token at developers.viber.com
-    name: "Viber Chat",
+    name: "Kharkov Viber Chat 13",
     avatar: "https://raw.githubusercontent.com/devrelv/drop/master/151-icon.png" // Just a placeholder avatar to display the user
 });
 
