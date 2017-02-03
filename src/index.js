@@ -10,6 +10,7 @@ require('dotenv').config();
 
 var request = require('request');
 
+
 function createLogger() {
     const logger = new winston.Logger({
         level: "debug" // We recommend using the debug level for development
